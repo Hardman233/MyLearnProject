@@ -1,0 +1,24 @@
+body{
+    background-image: url("image/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.box{
+     width: 400px;
+     height: 425px;
+     background:gainsboro;
+     position: absolute;
+     left: 36%;
+     top: 26%;
+     opacity: 0.8;
+     box-shadow: 12px 12px 2px 1px #012;
+ }
+
+.bt{
+    width: 50px;
+    height: 25px;
+    position: relative;
+    left: 40px;
+    background: gray
+}

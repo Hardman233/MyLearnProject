@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="collage:war exploded2">
+    <output-path>$PROJECT_DIR$/out/artifacts/collage_war_exploded2</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="collage" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-8.0.21" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="collage/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="collage:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/collage_war</output-path>
+    <root id="archive" name="collage_war.war">
+      <element id="artifact" artifact-name="collage:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-8.0.21" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

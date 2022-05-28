@@ -1,0 +1,24 @@
+body{
+    background-image: url("image/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.rBox{
+    width: 750px;
+    height: 650px;
+    background:gainsboro;
+    position: absolute;
+    left: 400px;
+    top: 50px;
+    opacity: 0.8;
+    box-shadow: 12px 12px 2px 1px #012;
+}
+.resultSubmit{
+    width: 80px;
+    height: 40px;
+    position: relative;
+    left: 340px;
+    top:20px;
+    background: #566270;
+}

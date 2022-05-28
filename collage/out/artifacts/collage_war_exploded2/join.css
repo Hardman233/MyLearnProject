@@ -1,0 +1,35 @@
+body{
+    background-image: url("image/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.voteBox{
+    width: 750px;
+    height: 425px;
+    background:gainsboro;
+    position: absolute;
+    left: 400px;
+    top: 80px;
+    opacity: 0.8;
+    box-shadow: 12px 12px 2px 1px #012;
+}
+
+.show{
+    width: 300px;
+    height: 100px;
+    background:gainsboro;
+    position: absolute;
+    left: 625px;
+    top: 550px;
+    opacity: 0.8;
+    box-shadow: 12px 12px 2px 1px #012;
+}
+.joinSubmit{
+    width: 65px;
+    height: 40px;
+    position: relative;
+    left: 340px;
+    top:20px;
+    background: #383A3F;
+}
